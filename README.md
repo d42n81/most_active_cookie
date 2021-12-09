@@ -3,3 +3,6 @@ Given a CSV file of cookies and the corresponding timestamps, parse the file and
 You can call either of two bash scripts to start the program or run the provided test cases. 
 To start the program, you can call: ./most_active_cookie some_cookie_log_file.csv -d yyyy-MM-dd
 To start my provided tests, you can call ./most_active_cookie_test
+
+Note, I needed to call sudo chmod 754 most_active_cookie to give the bash script permission to execute my Java files. You may need to that as well.
+Thank you!
